@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKPullToDismiss_Example' do
+  pod 'WKPullToDismiss', :path => '../'
+
+  target 'WKPullToDismiss_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
