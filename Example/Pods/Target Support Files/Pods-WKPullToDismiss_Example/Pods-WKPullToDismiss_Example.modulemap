@@ -1,0 +1,6 @@
+framework module Pods_WKPullToDismiss_Example {
+  umbrella header "Pods-WKPullToDismiss_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

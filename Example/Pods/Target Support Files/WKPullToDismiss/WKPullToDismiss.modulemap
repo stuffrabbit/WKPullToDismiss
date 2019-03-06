@@ -1,0 +1,6 @@
+framework module WKPullToDismiss {
+  umbrella header "WKPullToDismiss-umbrella.h"
+
+  export *
+  module * { export * }
+}

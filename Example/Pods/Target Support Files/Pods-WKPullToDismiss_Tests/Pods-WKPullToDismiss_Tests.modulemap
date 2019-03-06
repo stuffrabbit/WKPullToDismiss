@@ -1,0 +1,6 @@
+framework module Pods_WKPullToDismiss_Tests {
+  umbrella header "Pods-WKPullToDismiss_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,11 @@
 //  WKPullToDismiss
 //
 //  Created by stuffrabbit on 03/03/2019.
-//  Copyright (c) 2019 stuffrabbit. All rights reserved.
+//  Copyright (c) 2019 Wojtek Kordylewski. All rights reserved.
 //
 
 import UIKit
+import WKPullToDismiss
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
