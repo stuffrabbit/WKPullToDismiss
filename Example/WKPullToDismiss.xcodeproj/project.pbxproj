@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3773A9222DDB1100867FC3 /* RegularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3773A8222DDB1100867FC3 /* RegularViewController.swift */; };
+		2EC9AD0A2230005100921D7B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC9AD092230005100921D7B /* TableViewController.swift */; };
 		513F77834BF092E07A1745C6 /* Pods_WKPullToDismiss_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3527FEC4BC501690E8FDB /* Pods_WKPullToDismiss_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -29,13 +30,14 @@
 
 /* Begin PBXFileReference section */
 		038973FBC310431BCC0FA804 /* Pods-WKPullToDismiss_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKPullToDismiss_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKPullToDismiss_Tests/Pods-WKPullToDismiss_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		292DD7CCBC10D9BB906E9F10 /* WKPullToDismiss.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WKPullToDismiss.podspec; path = ../WKPullToDismiss.podspec; sourceTree = "<group>"; };
-		2F9F8066F9A305DCDC0AB42C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		292DD7CCBC10D9BB906E9F10 /* WKPullToDismiss.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKPullToDismiss.podspec; path = ../WKPullToDismiss.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E3773A8222DDB1100867FC3 /* RegularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularViewController.swift; sourceTree = "<group>"; };
+		2EC9AD092230005100921D7B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2F9F8066F9A305DCDC0AB42C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2FE3527FEC4BC501690E8FDB /* Pods_WKPullToDismiss_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKPullToDismiss_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WKPullToDismiss_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKPullToDismiss_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		C0C5430A38AEB524F5267805 /* Pods-WKPullToDismiss_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKPullToDismiss_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKPullToDismiss_Example/Pods-WKPullToDismiss_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8F13D39632DC701CED58E07 /* Pods_WKPullToDismiss_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKPullToDismiss_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12E28D39B8B068779233AEB /* Pods-WKPullToDismiss_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKPullToDismiss_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKPullToDismiss_Tests/Pods-WKPullToDismiss_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FBD0D5F64F98ABD27EE266E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBD0D5F64F98ABD27EE266E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2E3773A8222DDB1100867FC3 /* RegularViewController.swift */,
+				2EC9AD092230005100921D7B /* TableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T8V7V3Q22W;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T8V7V3Q22W;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -322,8 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2EC9AD0A2230005100921D7B /* TableViewController.swift in Sources */,
+				2E3773A9222DDB1100867FC3 /* RegularViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +421,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -460,6 +467,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -469,6 +477,7 @@
 			baseConfigurationReference = A63B207CC1412F5212178C31 /* Pods-WKPullToDismiss_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T8V7V3Q22W;
 				INFOPLIST_FILE = WKPullToDismiss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +493,7 @@
 			baseConfigurationReference = C0C5430A38AEB524F5267805 /* Pods-WKPullToDismiss_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T8V7V3Q22W;
 				INFOPLIST_FILE = WKPullToDismiss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038973FBC310431BCC0FA804 /* Pods-WKPullToDismiss_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T8V7V3Q22W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F12E28D39B8B068779233AEB /* Pods-WKPullToDismiss_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T8V7V3Q22W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

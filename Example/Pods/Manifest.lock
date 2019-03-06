@@ -1,0 +1,16 @@
+PODS:
+  - WKPullToDismiss (0.1.0)
+
+DEPENDENCIES:
+  - WKPullToDismiss (from `../`)
+
+EXTERNAL SOURCES:
+  WKPullToDismiss:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKPullToDismiss: 54c1e0aa72fc0214d7ef313d0fb1f1e8972eb085
+
+PODFILE CHECKSUM: 4b5e80a155761c7468f02a8a9d4163f9472c54a3
+
+COCOAPODS: 1.5.3

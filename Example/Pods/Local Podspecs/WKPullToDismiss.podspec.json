@@ -1,0 +1,22 @@
+{
+  "name": "WKPullToDismiss",
+  "version": "0.1.0",
+  "summary": "A short description of WKPullToDismiss.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stuffrabbit/WKPullToDismiss",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stuffrabbit": "w.kordylewski@neusta.de"
+  },
+  "source": {
+    "git": "https://github.com/stuffrabbit/WKPullToDismiss.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKPullToDismiss/Classes/**/*"
+}
