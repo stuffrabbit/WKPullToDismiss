@@ -32,9 +32,9 @@ Create an object of type `WKPullToDismiss` and pass the view controller to be di
 ```swift
 pullToDismiss = WKPullToDismiss(viewController: self, dismissView: view)
 ```
-If you pass `UIScrollView` as `dismissView` parameter, the scrollviews `UIPanGestureRecognizer` will be used to trigger the dismissal. Otherwise, a new `UIPanGestureRecognizer` will be created and added to the `dismissal` view. Make sure that other gesture recognizers do not interfere. Additionally, make sure to hold a reference to this object in your view controller. 
+If you pass `UIScrollView` as `dismissView` parameter, the scrollviews `UIPanGestureRecognizer` will be used to trigger the dismissal. Otherwise, a new `UIPanGestureRecognizer` will be created and added to the `dismissView`. Make sure that other gesture recognizers do not interfere. Additionally, make sure to hold a reference to this object in your view controller. 
 
-**Important**: The object `WKPullToDismiss` will set itself as the transitioning delegate of the passed viewcontroller upon initialization. There is no more action required. If you have multiple transitions to handle and want  read the chapter [Custom transitioning delegate](#custom-transitioning-delegate). 
+**Important**: The object `WKPullToDismiss` will set itself as the transitioning delegate of the passed viewcontroller upon initialization. There is no more action required. However, in case you have multiple transitions to handle and want to set a custom transitionin delegate, read the chapter [Custom transitioning delegate](#custom-transitioning-delegate). 
 
 
 ## Advanced
@@ -45,11 +45,11 @@ If you are using a Scrollview as view for dismissal you can set a custom offset 
 By default the respective Scrollview's contentInset.top value is used.
 * `isEnabled: Bool`
 Defines if the pan gesture recognizer is supposed to trigger the transition. Default is `true`.
-* `interactionController = WKPullToDismissInteractionController()`. The interaction controller for the transition you can modify its `dismissThreshold` property. It defines the percentage which has to be completed in order to finish the transition. Default value is `0.3.
-* `transitionDuration: TimeInterval`. The duration of the transition. Default is `0.5`.
+* `interactionController = WKPullToDismissInteractionController()`. The interaction controller for the transition. You can modify its `dismissThreshold` property. It defines the percentage which has to be completed in order to finish the transition. Default value is `0.3`.
+* `transitionDuration: TimeInterval`. The duration of the transition. Default is `0.5` seconds.
 
 ## Custom transitioning delegate
-The object `WKPullToDismiss` will set itself as the transitioning delegate of the passed viewcontroller upon initialization. You can still change the viewcontrollers transitioning delegate afterwards to another object e.g. if you want to handle additional tranistions. This, however, requires to pass the given interaction controller and the anmiation controller of this library at the given time to the respective methods of `UIViewControllerTransitioningDelegate`:
+The object `WKPullToDismiss` will set itself as the transitioning delegate of the passed view controller upon initialization. You can still change the viewcontrollers transitioning delegate afterwards to another object e.g. if you want to handle additional tranistions. This, however, requires to pass the given interaction controller and the anmiation controller of this library at the given time to the respective methods of `UIViewControllerTransitioningDelegate`:
 ```swift
 func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning?`
 func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning?
